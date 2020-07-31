@@ -1,0 +1,51 @@
+@keyframes count-in{
+    0%{
+        transform: translateY(0);}
+        60%{ transform: translateY(-100px);
+}
+100%{ transform: translateY(0);}
+    }
+    .count-in{animation: .7s count-in 3;}
+
+    
+
+.container{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+}
+
+.player{
+    width:200px;
+    height: 200px;
+    margin: 50px 50px;
+    display:inline-block;
+}
+
+.player p{font-weight: 500;
+ }
+ .player div{
+     width: 100%;
+     height: 100%;
+
+ }
+ .Rock{
+     background-image:url('rock.png');
+ }
+ .Paper{
+     background-image: url('paper.png');
+     
+ }
+ .Scissors{
+     background-image: url('scissors.png');
+ }
+ .Rock, .Paper, .Scissors{
+     background-size: contain;
+     background-repeat: no-repeat;
+
+ }
+ .startbutton{
+     border: none;
+     padding: 10px 100px;
+ }
